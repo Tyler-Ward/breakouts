@@ -8401,8 +8401,12 @@ for UFP operation</text>
 </sheet>
 </sheets>
 <errors>
+<approved hash="104,1,38.1,-119.38,J2,V+,N$12,,,"/>
+<approved hash="104,1,38.1,-129.54,J2,GND,N$13,,,"/>
 <approved hash="113,1,174.412,63.5,SJ1,,,,,"/>
 <approved hash="113,1,-116.163,68.3853,JP1,,,,,"/>
+<approved hash="113,1,-186.097,-134.425,JP2,,,,,"/>
+<approved hash="113,1,-97.1973,-132.275,JP3,,,,,"/>
 </errors>
 </schematic>
 </drawing>

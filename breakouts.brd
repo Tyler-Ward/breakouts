@@ -140,14 +140,10 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="160" y2="0" width="0" layer="20"/>
-<wire x1="160" y1="0" x2="160" y2="100" width="0" layer="20"/>
-<wire x1="160" y1="100" x2="0" y2="100" width="0" layer="20"/>
-<wire x1="0" y1="100" x2="0" y2="0" width="0" layer="20"/>
-<dimension x1="0" y1="0" x2="50" y2="0" x3="25" y3="-9" textsize="1.778" layer="20"/>
-<dimension x1="0" y1="0" x2="0" y2="50" x3="-19" y3="25" textsize="1.778" layer="20"/>
+<dimension x1="0" y1="0" x2="50" y2="0" x3="25" y3="-9" textsize="1.778" layer="49"/>
+<dimension x1="0" y1="0" x2="0" y2="50" x3="-19" y3="25" textsize="1.778" layer="49"/>
 <text x="32.5" y="23.5" size="0.6096" layer="25" font="vector" rot="R90">TUSB320</text>
-<text x="34.5" y="22" size="0.6096" layer="25" font="vector" rot="MR90">INT_N</text>
+<text x="35.5" y="22" size="0.6096" layer="26" font="vector" rot="MR90">INT_N</text>
 <text x="38" y="22" size="0.6096" layer="26" font="vector" rot="MR90">SCL</text>
 <text x="39.5" y="22" size="0.6096" layer="26" font="vector" rot="MR90">SDA</text>
 <text x="43.5" y="21.75" size="0.6096" layer="26" font="vector" rot="MR90">ADDR</text>
@@ -581,11 +577,11 @@ Source: www.neutrik.com/... 210_190721.pdf</description>
 <param name="rvViaInner" value="0.25"/>
 <param name="rvMicroViaOuter" value="0.25"/>
 <param name="rvMicroViaInner" value="0.25"/>
-<param name="rlMinPadTop" value="0.1mm"/>
+<param name="rlMinPadTop" value="4mil"/>
 <param name="rlMaxPadTop" value="20mil"/>
-<param name="rlMinPadInner" value="10mil"/>
+<param name="rlMinPadInner" value="2mil"/>
 <param name="rlMaxPadInner" value="20mil"/>
-<param name="rlMinPadBottom" value="0.1mm"/>
+<param name="rlMinPadBottom" value="3mil"/>
 <param name="rlMaxPadBottom" value="20mil"/>
 <param name="rlMinViaOuter" value="6mil"/>
 <param name="rlMaxViaOuter" value="20mil"/>
@@ -602,8 +598,8 @@ Source: www.neutrik.com/... 210_190721.pdf</description>
 <param name="psElongationOffset" value="100"/>
 <param name="mvStopFrame" value="1"/>
 <param name="mvCreamFrame" value="0"/>
-<param name="mlMinStopFrame" value="0mil"/>
-<param name="mlMaxStopFrame" value="0mil"/>
+<param name="mlMinStopFrame" value="2mil"/>
+<param name="mlMaxStopFrame" value="2mil"/>
 <param name="mlMinCreamFrame" value="0mil"/>
 <param name="mlMaxCreamFrame" value="0mil"/>
 <param name="mlViaStopLimit" value="25mil"/>
@@ -939,6 +935,12 @@ Source: www.neutrik.com/... 210_190721.pdf</description>
 </polygon>
 <via x="39.75" y="21.5" extent="1-16" drill="0.4"/>
 <via x="32.25" y="21.5" extent="1-16" drill="0.4"/>
+<polygon width="0.254" layer="16">
+<vertex x="11.75" y="19.5"/>
+<vertex x="11.75" y="0.75"/>
+<vertex x="29.25" y="0.75"/>
+<vertex x="29.25" y="19.5"/>
+</polygon>
 <wire x1="32.25" y1="21.5" x2="26.95" y2="16.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VIO">
